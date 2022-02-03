@@ -1,0 +1,61 @@
+body,html{
+    height: 100%;
+    margin: 0;
+}
+
+.bg{
+    background-image: url(../imagens/fundo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+.navbar{
+    background-color: #a0c5d3;
+    height: 100px;
+}
+
+.quem-sou{ 
+    background: ;
+    
+}
+
+.margin{
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.galeria{
+    background-color:;
+}
+
+.projetos{
+    background-color:;
+
+}
+
+
+
+.holder {
+    display: flex;
+    justify-content: center;
+}
+.imagem {
+  width: 200;
+  margin: 10px;
+  position: relative;
+  text-align: center;
+}
+.imagem::after {
+  content: attr(data-title); /* estilo que coloco a legenda no lugar */
+  position: absolute;
+  width: 100%;
+  bottom: -60px;
+  left: 0;
+}
+
+.bg-footer{
+    background-color:#0689B9;
+}
